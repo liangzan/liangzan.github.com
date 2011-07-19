@@ -8,6 +8,7 @@ body {
 
 #name {
     font-size: 25px;
+    margin: 0;
 }
 
 #email {
@@ -17,6 +18,42 @@ body {
 h2 {
     margin: 10px 0 10px 0;
     border-bottom: 2px solid #000;
+}
+
+#info li {
+    font-size: 16px;
+    list-style: none;
+    margin: 0 0 0 10px;
+}
+
+li.blog {
+    background-image: url('../images/posterous.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+}
+
+li.twitter {
+    background-image: url('../images/twitter.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+}
+
+li.facebook {
+    background-image: url('../images/facebook.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+}
+
+li.github {
+    background-image: url('../images/github.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+}
+
+li.plus {
+    background-image: url('../images/plus.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
 }
 
 
