@@ -56,4 +56,10 @@ li.plus {
     padding: 0 0 0 20px;
 }
 
+li.weibo {
+    background-image: url('../images/weibo.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+}
+
 
