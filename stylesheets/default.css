@@ -62,4 +62,8 @@ li.weibo {
     padding: 0 0 0 20px;
 }
 
-
+li.linkedin {
+    background-image: url('../images/linkedin.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+}
