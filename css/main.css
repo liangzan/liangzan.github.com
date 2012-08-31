@@ -1,69 +1,50 @@
 body {
-    font: 18px 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif
+    font: 15px 'PT Sans', sans-serif;
+    background-color: #ddd;
+    color: #222;
 }
 
-#info > img {
-    padding: 10px 0 10px 0;
+.sidebar {
 }
 
-#name {
-    font-size: 25px;
-    margin: 0;
+.container_12 {
+   background-color: #eee;
+   padding: 50px 20px 0 0;
 }
 
-#email {
-    font-size: 20px;
+.sidebar img {
+    float: right;
 }
 
-h2 {
-    margin: 10px 0 10px 0;
+h1 {
     border-bottom: 2px solid #000;
 }
 
-#info li {
+.sidebar ul {
+    padding: 190px 0 0 0;
+    text-align: right;
+}
+
+.sidebar li {
     font-size: 16px;
     list-style: none;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 15px;
 }
 
-li.blog {
-    background-image: url('../images/octopress.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
+
+/* unvisited link */
+a:link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-li.twitter {
-    background-image: url('../images/twitter.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
+/* visited link */
+a:visited {
+    color: #000;
 }
 
-li.facebook {
-    background-image: url('../images/facebook.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
-}
-
-li.github {
-    background-image: url('../images/github.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
-}
-
-li.plus {
-    background-image: url('../images/plus.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
-}
-
-li.weibo {
-    background-image: url('../images/weibo.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
-}
-
-li.linkedin {
-    background-image: url('../images/linkedin.png');
-    background-repeat: no-repeat;
-    padding: 0 0 0 20px;
+/* mouse over link */
+a:hover {
+    color: #888;
 }
